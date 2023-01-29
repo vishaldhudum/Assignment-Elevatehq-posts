@@ -1,0 +1,47 @@
+
+.post-box{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 0 15px 15px 15px;
+}
+
+.post-title{
+    font-weight: bold;
+}
+
+.post-user{
+    color: blue;
+    cursor: pointer;
+}
+.post-wrapper{
+    cursor: pointer;
+}
+
+.posts {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    margin-top: 15px;
+}
+
+.comment-box{
+    padding: 0 15px;
+}
+
+.comment-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .posts { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .posts { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1200px) {
+  .posts { grid-template-columns: repeat(5, 1fr); }
+}

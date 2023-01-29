@@ -1,0 +1,14 @@
+.bodyWrapper{
+    padding: 15px 30px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.back-button{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

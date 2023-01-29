@@ -1,0 +1,33 @@
+#autocomplete{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+#results ul{
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid;
+    padding: 0;
+    position: absolute;
+    width: calc(100% - 2px);
+    background: white;
+}
+
+#results li:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#results li{
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+#results li:last-child{
+    border-bottom: 0;
+}
